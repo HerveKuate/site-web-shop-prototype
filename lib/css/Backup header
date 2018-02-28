@@ -1,0 +1,42 @@
+#div_header {
+  //position: fixed;
+  opacity: 1;
+  height: 100%;
+  
+}
+
+#div_header img {
+  float: left;
+  height: 4em;
+  width: 13em;
+  
+}
+
+#div_header div {
+  display: inline-box;
+  text-align: right;
+  height: 4em;
+  margin-left: 13em;
+  
+  background-color: green;
+}
+
+#div_header div input{
+  border: 1px solid #FFFFFF;
+  font-size: 1em;
+  padding: 5px;
+  width: 20em;
+}
+
+#div_header div input[type="submit"]{
+  width: 7em;
+  background:url(seach.ico);
+  background-position: center center;
+   -webkit-transition: background-color 1s ease-in-out;
+  -moz-transition: background-color 1s ease-in-out;
+  -o-transition: background-color 1s ease-in-out;
+  transition: background-color 1s ease-in-out;
+}
+#div_header div input[type="submit"]:hover{
+  background-color: red;
+}

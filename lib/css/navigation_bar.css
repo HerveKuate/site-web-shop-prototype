@@ -1,0 +1,234 @@
+
+#menu_left {
+    background: transparent none repeat scroll 0 0;
+    border-radius: 0 15px 15px 0;
+    box-shadow: 0 0 5px black;
+    float: left;
+    text-align: center;
+    width: 15em;
+}
+#menu_left ul {
+    background: transparent none repeat scroll 0 0;
+    border-radius: 0 15px 15px 0;
+    box-shadow: 0 0 5px black;
+    position: relative;
+    width: 15em;
+}
+#menu_left ul li {
+    background: rgba(0, 0, 0, 0) linear-gradient(#90c, #730099) repeat scroll 0 0;
+    height: 3em;
+    list-style: outside none none;
+    position: relative;
+    width: 15em;
+}
+#menu_left ul li.special_block {
+    background: var(--block_1);
+    color: white;
+    display: block;
+    font-weight: bold;
+}
+#menu_left ul li a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #666;
+    border-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.5);
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 1px 15px;
+    color: #222;
+    display: block;
+    font-weight: bold;
+    height: 2.8em;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-top: 4px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #888;
+    transition: background 0.5s ease 0s;
+}
+#menu_left ul li a:hover, #menu_left ul li:hover ul li a:hover {
+    background: transparent none repeat scroll 0 0;
+    color: #39004d;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+    transition: background 0s ease 0s;
+}
+#menu_left ul li a:hover::before {
+    border-bottom: 3px solid transparent;
+    border-left: 3px solid #90c;
+    border-top: 3px solid transparent;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: 9px;
+    top: 28px;
+    width: 0;
+    z-index: 10;
+}
+#menu_left ul li ul {
+    left: -999em;
+    position: absolute;
+    text-align: left;
+    transition: left 1s ease-in-out 0s;
+    z-index: 1000;
+}
+#menu_left ul li ul li {
+    display: inherit;
+}
+#menu_left ul li:hover ul {
+    background: transparent none repeat scroll 0 0;
+    border-radius: 0 15px 15px 0;
+    box-shadow: 0 0 5px black;
+    left: 15em;
+    position: relative;
+    top: -3.1em;
+    width: 15em;
+}
+#menu_left ul li:hover ul li {
+    background: rgba(0, 0, 0, 0) linear-gradient(#90c, #730099) repeat scroll 0 0;
+    display: inline-block;
+    height: 3em;
+    list-style: outside none none;
+    position: relative;
+    width: 15em;
+}
+#menu_left ul li:hover ul li a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #666;
+    border-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.5);
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 1px 15px;
+    color: #222;
+    display: block;
+    font-weight: bold;
+    height: 3em;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-top: 4px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #888;
+    transition: background 0.5s ease 0s;
+}
+#menu_left ul li:first-child, #menu_left ul li:first-child a {
+    background: var(--block_1);
+    border-radius: 0 15px 0 0;
+}
+#menu_left ul li:last-child, #menu_left ul li:last-child a {
+    border-radius: 0 0 15px;
+}
+#menu_left ul li a:hover::after {
+    background: #39004d none repeat scroll 0 0;
+    border-radius: 6px;
+    color: #90c;
+    content: "";
+    font-size: 0.6em;
+    font-weight: normal;
+    height: 12px;
+    position: absolute;
+    right: 5px;
+    text-indent: 3px;
+    top: 25px;
+    width: 12px;
+}
+#menu_top {
+    background: transparent none repeat scroll 0 0;
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+    float: left;
+    height: 2em;
+    text-align: center;
+    width: 100%;
+}
+#menu_top ul {
+    background: #666 none repeat scroll 0 0;
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+    height: 2em;
+    position: relative;
+    width: 100%;
+}
+#menu_top ul li {
+    background: rgba(0, 0, 0, 0) linear-gradient(#90c, #730099) repeat scroll 0 0;
+    border-radius: 0;
+    float: left;
+    list-style: outside none none;
+    max-width: 8em;
+    position: relative;
+    width: 8em;
+}
+#menu_top ul li:last-child {
+    float: right;
+}
+#menu_top ul li a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #666;
+    border-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.5);
+    border-image: none;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px 1px 1px 0;
+    color: #222;
+    float: left;
+    font-weight: bold;
+    height: 2em;
+    line-height: 1.8em;
+    position: relative;
+    right: 0;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #888;
+    transition: background 0.5s ease 0s;
+    vertical-align: middle;
+    width: 8em;
+}
+#menu_top ul li a:hover, #menu_top ul li:hover ul li a:hover {
+    background: transparent none repeat scroll 0 0;
+    color: #39004d;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+    transition: background 0s ease 0s;
+}
+#menu_top ul li ul {
+    left: -999em;
+    position: absolute;
+    text-align: left;
+    transition: left 1s ease-in-out 0s;
+    z-index: 1000;
+}
+#menu_top ul li ul li {
+    display: inherit;
+}
+#menu_top ul li:hover ul {
+    background: transparent none repeat scroll 0 0;
+    border-radius: 0 15px 15px 0;
+    box-shadow: 0 0 5px black;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 0;
+}
+#menu_top ul li:hover ul li {
+    background: rgba(0, 0, 0, 0) linear-gradient(#90c, #730099) repeat scroll 0 0;
+    float: left;
+    position: relative;
+}
+#menu_top ul li:hover ul li a {
+    background-color: #666;
+    color: #222;
+    font-weight: bold;
+    height: 2.2em;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #888;
+    transition: background 0.5s ease 0s;
+}
+#menu_top ul li ul li.double_height:hover a, #menu_top ul li ul li.double_height a {
+    height: 3.6em;
+}

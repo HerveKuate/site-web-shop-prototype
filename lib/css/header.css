@@ -1,0 +1,40 @@
+
+#div_header {
+    height: 100%;
+    opacity: 1;
+}
+#div_header img {
+    float: left;
+    height: 4em;
+    width: 13em;
+}
+#div_header div {
+    background-color: green;
+    height: 4em;
+    margin-left: 13em;
+    text-align: right;
+}
+#div_header div input {
+    border: 1px solid #ffffff;
+    font-size: 1em;
+    padding: 5px;
+    width: 20em;
+}
+#div_header div input[type="submit"] {
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #88add7, #6b6dbb) repeat scroll 0 0;
+    border: 2px groove #7c93ba;
+    border-radius: 0 15px 15px 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.75);
+    color: #fff;
+    cursor: pointer;
+    font-family: Andika,Arial,sans-serif;
+    font-size: 1.1em;
+    font-variant: small-caps;
+    letter-spacing: 0.1em;
+    padding: 5px 25px;
+    width: 9em;
+}
+#div_header div input[type="submit"]:hover, div_header div input[type="submit"]:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    color: #edebda;
+}
